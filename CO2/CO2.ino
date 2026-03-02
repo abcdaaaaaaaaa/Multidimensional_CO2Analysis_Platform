@@ -8,8 +8,8 @@
 #define gasPin       (34)
 #define dhtPin       (33)
 
-const char* ssid = "A.Mert iPhone'u";  
-const char* password = "bugungunlerdenoyun";
+const char* ssid = "REPLACE_WITH_YOUR_SSID";  
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
 unsigned long int hello1 = 1;
 unsigned long int hello2 = 2;
@@ -128,3 +128,4 @@ long round2(float x) {
 long round4(float x) {
   return round(x * 10000);
 }
+
